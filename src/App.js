@@ -10,7 +10,7 @@ const App = () => {
     const [item, setItem] = useState('');
     const [, setEditItem] = useState(false);
 
-    const handleChange = event => { setItem(event.target.value)};
+    const handleChange = event => { setItem(event.target.value) };
 
     const handleSubmit = event => { event.preventDefault();
 
