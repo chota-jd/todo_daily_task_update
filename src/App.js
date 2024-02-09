@@ -8,7 +8,7 @@ const App = () => {
     const [itemsToShow, setItemsToShow] = useState("all");
     const [id, setId] = useState(uuid());
     const [item, setItem] = useState('');
-    const [editItem, setEditItem] = useState(false);
+    const [, setEditItem] = useState(false);
 
     const handleChange = event => { setItem(event.target.value)};
 
